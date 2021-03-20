@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300;500;700&family=Roboto+Slab:wght@400;500;700;900&family=Roboto:wght@400;500;700;900&display=swap');
 * {
   box-sizing: border-box;
   margin: 0;
@@ -20,13 +21,13 @@ a {
 }
 
 
-main {
+header {
   width: 100%;
   height: auto;
   display: grid;
   grid-template-rows: auto 1fr;
 }
-main .main-icons-container {
+header .main-icons-container {
   display: flex;
   width: 100%;
   height: 44px;
@@ -34,7 +35,7 @@ main .main-icons-container {
   align-items: center;
   background-color: rgb(21, 172, 199);
 }
-main .icons-container {
+header .icons-container {
   display: flex;
   width: 100%;
   height: 40px;
@@ -42,7 +43,7 @@ main .icons-container {
   align-items: center;
   margin-right: 50px;
 }
-main .icons-container a {
+header .icons-container a {
   margin-right: 10px;
   color: white;
 }
@@ -50,21 +51,56 @@ main .icons-container a {
   display: grid;
   grid-template-columns: 1fr 1fr;
 }
+.profile .logo {
+  width: 250px;
+}
 .profile .logo img{
   width: 250px;
   height: auto;
 }
 .profile .about-me {
   display: flex;
+  width: 100px;
+  justify-self: end;
   justify-content: flex-end;
   align-items: center;
   margin-right: 50px;
   font-size: 1.6rem;
 }
-.main-news-container {
-  width: 100%;
+.home-main-container {
+  display: grid;
+  grid-template-columns: 1fr 4fr 1fr;
+  height: 100%;
+  background-image: url('../assets/img/Cover.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.home-main-section {
+  display: grid;
+  grid-column: 2;
+  height: 230px;
+}
+.news {
+  font-family: "Roboto", monospace;
+  font-size: 30px;
+  letter-spacing: 10px;
+  font-weight: 700px;
+  color: white;
+  text-align: center;
+  margin-top: 80px;
+}
+.cta {
+  width: 130px;
   height: auto;
-  display: flex;
-  justify-content: center;
-  background-image: url('./');
+  margin: 0 auto;
+  border-radius: 10px;
+  background-color: #47cfac;
+  border: none;
+}
+.cta a {
+  font-size: 1.8rem;
+  font-weight: 500px;
+  color: black;
+  padding: 10px 15px;
 }
