@@ -8,12 +8,15 @@
 html {
   font-size: 62.5%;
 }
-/* body {
+body {
+  font-family: "Roboto mono", monospace;
+}
+.home-body {
   position: fixed;
   top: 0;
   right: 0;
   bottom: 0;
-  left: 0; */
+  left: 0;
 }
 a {
   text-decoration: none;
@@ -34,6 +37,7 @@ header .main-icons-container {
   justify-content: center;
   align-items: center;
   background-color: rgb(21, 172, 199);
+  box-shadow: 0 4px 10px rgb(61 61 61);
 }
 header .icons-container {
   display: flex;
@@ -68,8 +72,8 @@ header .icons-container a {
   font-size: 1.6rem;
 }
 .home-main-container {
-  display: grid;
-  grid-template-columns: 1fr 4fr auto;
+  /* display: grid; */
+  /* grid-template-columns: 1fr 4fr auto; */
   height: 100%;
   background-image: url('../assets/img/Cover.png');
   background-position: center;
@@ -136,10 +140,11 @@ header .icons-container a {
   grid-template-rows: 160px 60px 60px;
   /* align-self: center; */
 }
-.blogs--title {
-  /* margin-top: 90px; */
-  font-size: 2.6rem;
-  /* margin-bottom: 10px; */
+.blogs-title--span {
+  margin-left: 30px;
+  font-size: 2.0rem;
+  font-weight: 700;
+  margin-bottom: 15px;
   align-self: end;
 }
 .blogs--text {
@@ -151,6 +156,7 @@ header .icons-container a {
   height: 35px;
   background-color: #E6E9ED;
   font-size: 1.2rem;
+  border: 2px solid #47cfac;
 }
 .blogs-cta a {
   padding: 8px 25px;
@@ -189,8 +195,110 @@ header .icons-container a {
   margin-top: 10px;
   padding: 8px 15px;
   background-color: white;
+  border: 2px solid #47cfac;
 }
 .blogs-button a {
   text-decoration: none;
   color: black;
+}
+footer {
+  width: 100%;
+  height: 80px;
+  background-color: #E6E9ED;
+  text-align: center;
+}
+footer p {
+  border-top: 35px solid #15ACC7;
+}
+footer p a {
+  display: inline-block;
+font-size: 1.2rem;
+padding-top: 15px;
+}
+
+/* blog section */
+.main-blog-container {
+  width: 92%;
+  height: auto;
+  margin: 0 auto;
+  max-width: 980px;
+}
+.main-blog-img-container {
+
+}
+.main-blog-img-container img {
+  width: 100%;
+  height: auto;
+}
+.main-blog-img-container h3 {
+  font-size: 1.8rem;
+  text-align: center;
+  margin-top: 10px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #15ACC7;
+}
+.main-blog-description-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+.blog-description-container {
+  padding: 0 20px;
+}
+.main-blog-section h3 {
+  margin-top: 40px;
+  font-size: 1.8rem;
+  margin-bottom: 20px;
+  font-weight: 700;
+}
+.main-blog-section p {
+  font-size: 1.4rem;
+  margin-bottom: 20px;
+  height: auto;
+}
+.main-contact-container {
+  display: flex;
+  background-color: rgb(134, 205, 233);
+  margin: 10px 0 30px;
+  padding: 20px;
+}
+.main-contact--pic {
+  display: inline-block;
+}
+/* .main-contact--pic span {
+  display: flex;
+  width: 50px;
+  height: 50px;
+  background-image: url('../assets/icons/contacto.svg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+} */
+.contact--bild {
+  display: flex;
+  width: 50px;
+  height: 50px;
+  background-image: url('../assets/icons/contacto.svg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.contact--bild2 {
+  display: flex;
+  width: 50px;
+  height: 50px;
+  background-image: url('../assets/icons/charla.svg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.contact-title {
+  display: inline-flex;
+  font-size: 1.8rem;
+}
+.contact-text {
+  display: inline-flex;
+  font-size: 1.2rem;
+}
+.main-contact {
+  padding: 0 15px;
 }
