@@ -1,0 +1,115 @@
+@media screen and (max-width: 1024px) {
+  .blogs-main--02 {
+    grid-template-rows: 160px 80px 60px;
+  }
+  .main-blog-description-container {
+    width: 85%;
+    margin: 0 auto;
+  }
+  .main-contact-container {
+    width: 85%;
+    margin: 0 auto;
+    margin-bottom: 40px;
+}
+  .main-blog-description-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .blog-description-container {
+    padding: 0 20px 30px;
+  }
+  .profile-main-container {
+    margin-bottom: 30px;
+}
+.profile-projects-container {
+  width: 90%;
+}
+@media screen and (max-width: 768px) {
+    .blogs-main--02 {
+      grid-template-rows: 160px 100px 60px;
+    }
+    .main-container-all {
+      grid-template-columns: 1fr 1fr;
+      gap: 30px 15px;
+    }
+    .profile-main-container {
+      display: grid;
+      grid-template-columns: 1fr;
+  }
+  .profile-main-left img {
+    width: 65%;
+}
+.profile-main-right h3 {
+  font-size: 2.2rem;
+  font-weight: 700;
+}
+.profile-main-right p {
+  font-size: 1.2rem;
+  margin-top: 30px;
+}
+.profile-main-left {
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+}
+
+}
+@media screen and (max-width: 425px) {
+  .blogs-main-container {
+    grid-template-columns: 1fr;
+    grid-template-rows: 159px 34px 60px;
+  }
+  .blogs-foto-001 {
+    width: 80%;
+    height:250px;
+  }
+  .blogs--title {
+    margin: 0 auto;
+    margin-bottom: 10px;
+  }
+  .blogs-main-container {
+    grid-template-rows: 284px 33px 94px 50px;
+}
+  .blogs-main--02 {
+    grid-template-rows: 80px 96px 60px;
+}
+.blogs-cta {
+  margin: 0 auto;
+}
+.main-container-all {
+  grid-template-columns: 1fr;
+  gap: 30px 15px;
+}
+.home-main-section .news {
+  font-size: 20px;
+  letter-spacing: 10px;
+}
+.cta {
+  width: 100px;
+  height: 40px;
+}
+.cta a {
+  font-size: 1.4rem;
+}
+.main-blog-description-container {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+}
+.main-blog-container {
+  width: 90%;
+}
+.main-contact-container {
+  display: block;
+}
+.main-contact {
+  margin-bottom: 30px;
+}
+.profile-main-left {
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+}
+.profile-projects-container {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+}
