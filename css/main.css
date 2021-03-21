@@ -261,6 +261,11 @@ padding-top: 15px;
   margin: 10px 0 30px;
   padding: 20px;
 }
+.main-contact-container2 {
+  width: 90%;
+  margin: 0 auto;
+  margin-bottom: 40px;
+}
 .main-contact--pic {
   display: inline-block;
 }
@@ -301,4 +306,57 @@ padding-top: 15px;
 }
 .main-contact {
   padding: 0 15px;
+}
+
+/* profil section */
+.profile-main-container--all {
+  width: 85%;
+  margin: 0 auto;
+}
+.profile-main-container {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+}
+.profile-main-left img {
+  width: 100%;
+}
+.profile-main-right h3 {
+  font-size: 3.0rem;
+  font-weight: 700;
+}
+.profile-main-right p {
+  font-size: 1.4rem;
+  margin-top: 30px;
+}
+
+/* next */
+.profile-projects-container {
+  width: 80%;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin-bottom: 80px;
+  margin-top: 30px;
+}
+.profile-projects-title--h3 {
+  text-align: center;
+  font-size: 1.8rem;
+  border-bottom: 1px solid #15ACC7;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+}
+.profile-projects-section {
+  padding: 15px;
+}
+.profile-projects-section img {
+  width: 100%;
+  border-radius: 20px;
+}
+.profile-projects-section h3 {
+  font-size: 1.8rem;
+  margin-top: 10px;
+}
+.profile-projects-section p {
+  font-size: 1.0rem;
+  margin-top: 10px;
 }
